@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nomor 21</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box">
+        <div class="title">
+          <h1>Halaman Register</h1>
+        </div>
+        <div class="logo">
+          <img src="img/ilc.png" alt="LOGO ilc" id="logo" />
+        </div>
+        <form class="form">
+          <div class="kotak">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            /><img
+              src="img/envelope-regular-24.png"
+              alt="Email Logo"
+              id="logo_email"
+            />
+          </div>
+          <br />
+          <div class="kotak">
+            <input
+              type="password"
+              name="password"
+              id="pass"
+              placeholder="Password"
+              required
+            />
+            <img
+              src="img/lock-regular-24.png"
+              alt="Password"
+              id="logo_password"
+            />
+          </div>
+          <div class="foto_profil">
+            <input type="file" name="foto" id="foto" />
+          </div>
+          <div class="date">
+            <label for="tgl">Tanggal Lahir: </label
+            ><input type="date" name="tgl" id="tgl" /> <img src="img/calendar-regular-24.png" alt="calendar">
+          </div>
+          <div class="pilihan_gender">
+            <label for="gender">Gender: </label>
+            <select name="gender" id="gender">
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+          </div>
+          </select>
+          <br />
+          <button>Daftar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

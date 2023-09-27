@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("img/GERBANG-UPNVJT-POLOS.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+.box{
+    min-width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 19%;
+    background-color:rgba(255, 255, 255, 0.25);
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 8px rgb(216, 216, 216);
+}
+.box:hover{
+    background: #ffffff30;
+    backdrop-filter: blur(10px);
+}
+.box .title{
+    color: rgba(255, 255, 255, 0.9);
+    /* text-transfor    m: uppercase; */
+    text-align: center;
+}
+.box .form{
+    color: white;
+    margin-left: 40px;
+    margin-top: 25px;
+    opacity: 0.9;
+}
+#logo{
+    width: 40%;
+    opacity: 0.9;
+    float: right;
+    margin-right: 50px;
+}
+.kotak input{
+    width: 200px;
+    outline: none;
+    height: 25px;
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    padding-left: 10px;
+}
+.kotak input::placeholder{
+    color: rgb(233, 233, 233);
+}
+.kotak img{
+    position: absolute;
+    width: 20px;
+    left: 235px;
+    transform: translate(-50%);
+}
+.kotak img#logo_email{
+    top: 94px;
+}
+.kotak img#logo_password{
+    top: 146px;
+}
+.foto_profil{
+    width: 215px;
+    margin-top: 24px;
+}
+.foto_profil input::-webkit-file-upload-button{
+    visibility: hidden;
+}
+.foto_profil input::before{
+    content: 'Upload Foto Profil Kamu';
+    font-weight: 8pt;
+    display: inline-block;
+    width: 150px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    white-space: nowrap;
+    background: transparent;
+    padding: 6px 9px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0,4 ease all;
+}
+.foto_profil input:hover::before{
+    font-size: 12.5px;
+    font-weight: bold;
+    border: 2px solid rgba(17, 17, 17, 0.6);
+    color: rgba(17, 17, 17, 0.6);
+}
+.date {
+    width: 220px;
+    font-size: 11pt;
+    margin: 20px 0px;
+    /* background-color: aliceblue; */
+}
+.date input{
+    color: rgb(233, 233, 233);
+    text-transform: uppercase;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    background: transparent;
+    padding: 2px 20px;
+    margin-top: 6px;
+    outline: none;
+}
+.date input:hover{
+    font-weight: bold;
+    border: 2px solid rgba(17, 17, 17, 0.6);
+    color: rgba(17, 17, 17, 0.6);
+}
+.date input[type="date"]::-webkit-calendar-picker-indicator{
+    opacity: 0;
+}
+.date img{
+    opacity: 0.75;
+    position: absolute;
+    width: 17px;
+    left: 170px;
+    bottom: 106px;
+    transform: translate(-50%);
+}
+.pilihan_gender{
+    width: 220px;
+    height: 30px;
+    font-size: 95%;
+    /* background-color: aliceblue; */
+}
+.pilihan_gender #gender{
+    width: 100px;
+    height: 25px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    transition: 0,4 ease all;
+}
+.pilihan_gender #gender:hover{
+    font-weight: bold;
+    border: 2px solid rgba(17, 17, 17, 0.6);
+    color: rgba(17, 17, 17, 0.6);
+}
+.box button{
+    width: 220px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+    margin-top: 20px;
+    transition: 0,4 ease all;
+}
+.box button:hover{
+    font-weight: bold;
+    border: 2px solid rgba(17, 17, 17, 0.6);
+    color: rgba(17, 17, 17, 0.6);
+}
